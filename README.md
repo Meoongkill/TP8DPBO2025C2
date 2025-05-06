@@ -2,7 +2,8 @@
 Saya Muhammad Fathan Putra dengan NIM 2300330 mengerjakan soal Tugas Praktikum 8 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 # Catatan Untuk Asprak
-Kang-Teh aslian, aku udah bikin 4 codingan cuma buat TP8 doang, capek kang aslian...
+Kang-Teh aslian, aku udah bikin 4 codingan cuma buat TP8 doang, capek kang aslian aaaaaa, padahal udah susah susah...
+Aku pasrah gila buat TP8 ini, yang penting kumpul (tapi jalan semua kok fitur - fiturnya)
 
 # Deskripsi Proyek
 Ini adalah Sistem manajemen akademik berbasis web dengan arsitektur MVC (Model-View-Controller) untuk mengelola data mahasiswa dan KRS. Dibangun menggunakan:

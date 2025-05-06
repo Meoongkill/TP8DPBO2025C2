@@ -13,36 +13,8 @@ Ini adalah Sistem manajemen akademik berbasis web dengan arsitektur MVC (Model-V
 - Arsitektur bergaya MVC
 
 # Struktur Folder (Berdasarkan Screenshot)
-/rushb_app
-├── config/
-│   └── database.php
-├── controllers/
-│   ├── MahasiswaController.php
-│   └── KrsController.php
-├── models/
-│   ├── Mahasiswa.php
-│   └── Krs.php
-├── views/
-│   ├── templates/
-│   │   ├── header.php
-│   │   ├── footer.php
-│   │   └── sidebar.php
-│   ├── mahasiswa/
-│   │   ├── index.php
-│   │   ├── create.php
-│   │   ├── edit.php
-│   │   └── view.php
-│   └── krs/
-│       ├── index.php
-│       ├── create.php
-│       ├── edit.php
-│       └── view.php
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js
-└── index.php
+![StrukturFolder](https://github.com/user-attachments/assets/5ff3f4b7-7204-4a65-b030-08984f7c0dc9)
+
 
 # Fitur Utama untuk Tugas Ini
 Mahasiswa

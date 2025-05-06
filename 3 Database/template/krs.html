@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kartu Rencana Studi</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="function/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="mahasiswa.php">Mahasiswa</a>
+              <a class="nav-link text-white" href="mata_kuliah.php"
+                >Mata Kuliah</a
+              >
+              <a class="nav-link text-white" href="krs.php">KRS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-4">
+      <div class="col-1 my-3">
+        <a
+          type="button"
+          class="btn btn-primary nav-link active"
+          href="template/krscreate.html"
+          >Tambah KRS Baru</a
+        >
+      </div>
+
+      <table class="table">
+        <thread>
+          <tr>
+            <th>ID KRS</th>
+            <th>ID Mahasiswa</th>
+            <th>ID Mata Kuliah</th>
+            <th>Semester</th>
+            <th>Nilai Akhir</th>
+            <th>Action</th>
+          </tr>
+        </thread>
+        <tbody>
+          DATA_TABEL
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="function/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

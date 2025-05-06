@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Dosen Wali</title>
+    <link rel="stylesheet" href="functions/bootstrap.min.css" />
+    <script src="functions/jquery.min.js"></script>
+    <script src="functions/popper.min.js"></script>
+    <script src="functions/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">Edit Dosen Wali</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="mahasiswa.php">Mahasiswa</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="kelas.php">Kelas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="mata_Kuliah.php"
+                >Mata Kuliah</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Dosen_Wali.php"
+                >Dosen Wali</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Kartu_Rencana_Studi.php"
+                >KRS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Nilai.php">Nilai</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="card">
+            <div class="card-header bg-warning">
+              <h3 class="text-white text-center">Edit Dosen Wali</h3>
+            </div>
+            <div class="card-body">
+              <form method="POST" action="Dosen_Wali.php">
+                <input type="hidden" name="id" value="DATA_ID" />
+
+                <div class="form-group">
+                  <label for="nama">Nama Dosen Wali</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nama"
+                    name="nama"
+                    value="DATA_NAMA"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="jabatan">Jabatan Dosen Wali</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="jabatan"
+                    name="jabatan"
+                    value="DATA_JABATAN"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="semester">Peruntukkan Semester Dosen Wali</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="semester"
+                    name="semester"
+                    value="DATA_SEMESTER"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    name="Dosen_Wali_Update"
+                  >
+                    Update
+                  </button>
+                  <a href="Dosen_Wali.php" class="btn btn-secondary">Cancel</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
